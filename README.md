@@ -2,6 +2,20 @@
 
 Video demo: https://markrichman.com/2017/02/17/aws-elastic-beanstalk-go/
 
+## 
+Install Golang
+```
+wget https://golang.org/dl/go1.15.2.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.15.2.linux-amd64.tar.gz
+export PATH=$PATH:/usr/local/go/bin
+```
+
+
+```
+git clone https://github.com/ejlp12/elastic-beanstalk-go-demo.git
+go run application.go
+```
+
 ## Creating a source bundle
 
 Create a zip file from the root of this package, for example:
